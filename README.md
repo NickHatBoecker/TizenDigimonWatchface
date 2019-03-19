@@ -9,19 +9,19 @@ This is a watch face for Samsung Galaxy Watch based on the design of the first d
 - Time (24 hour format)
 - Full date
 
-## Digimon States
+### Animated Digimon States
 
-### Default
-![](https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/default.jpg)
+#### Default
+<img src="https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/default.jpg" width="250">
 
-### Low Battery
-![](https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/low_battery.jpg)
+#### Low Battery
+<img src="https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/low_battery.jpg" width="250">
 
-### Charging
-![](https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/charging.jpg)
+#### Charging
+<img src="https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/charging.jpg" width="250">
 
-### Fully Charged
-![](https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/fully_charged.jpg)
+#### Fully Charged
+<img src="https://github.com/theskyliner/TizenDigimonWatchface/raw/master/images/screenshots/fully_charged.jpg" width="250">
 
 ## Copyright
 
