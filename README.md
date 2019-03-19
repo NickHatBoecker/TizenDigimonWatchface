@@ -26,3 +26,7 @@ This is a watch face for Samsung Galaxy Watch based on the design of the first d
 ## Copyright
 
 Digimon Sprites from [digimon.fandom.com](https://digimon.fandom.com/wiki/Category:Japanese_Digivice_Images)
+
+## Donate
+
+Please feel free to [donate](https://www.paypal.me/nickhatboecker) so I can provide more apps for Samsung Galaxy Watch. Thank you very much!
