@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Digital-7";
+    src: url("../fonts/digital-7.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Digital-7", Arial, sans-serif;
+    color: #343434;
+}
+
+.bc-danger {
+    background-color: red !important;
+}
+
+.watch {
+    background: #343434;
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url(../images/bg.png);
+}
+
+.watch-display {
+    background-color: #828f78;
+    height: 65%;
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+/*
+battery
+ */
+#battery {
+    height: 12%;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    overflow: hidden;
+}
+
+#battery-rec {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 2px #343434;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#battery-fill {
+    position: absolute;
+    max-width: 90%;
+    width: 90.5%;
+    height: 84%;
+    top: 7%;
+    left: 5%;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.watch__battery__text {
+    position: absolute;
+    width: 100%;
+    max-width: 95%;
+    padding: 7px;
+    font-size: 21px;
+    text-align: center;
+    color: #343434;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+/*
+hour&minutes
+*/
+
+#rec-time {
+    position: absolute;
+    width: 200px;
+    top: 31%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 6em;
+    display: flex;
+}
+
+#str-hours,
+#str-console,
+#str-minutes {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+string day & month
+*/
+
+#rec-string-time {
+    position: absolute;
+    height: 30%;
+    top: 83%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 220px;
+}
+
+#str-day {
+    font-size: 200%;
+}
+
+/*
+digimon
+ */
+.c-digimon {
+    width: 46px;
+    height: 62px;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-image: url(../images/digimon/default.gif);
+    position: absolute;
+    top: 0;
+    right: 6%;
+}
+
+.c-digimon.c-digimon--low-battery {
+    background-image: url(../images/digimon/low_battery.gif);
+}
+.c-digimon.c-digimon--charging {
+    background-image: url(../images/digimon/charging.gif);
+}
+.c-digimon.c-digimon--fully-charged {
+    background-image: url(../images/digimon/fully_charged.gif);
+}
